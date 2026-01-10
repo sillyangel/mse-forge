@@ -6,3 +6,7 @@
 [gitea repo](https://git.sillyangel.dev/angel/mse-forge)
 
 [github mirror](https://github.com/sillyangel/mse-forge/)
+
+[curseforge page](https://www.curseforge.com/minecraft/mc-mods/more-spear-enchantments)
+
+[modrinth page](https://modrinth.com/mod/more-spear-enchantments)
