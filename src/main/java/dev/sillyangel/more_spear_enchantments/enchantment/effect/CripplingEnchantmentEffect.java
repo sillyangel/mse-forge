@@ -24,20 +24,18 @@ public record CripplingEnchantmentEffect(LevelBasedValue duration) implements En
     public void apply(ServerLevel world, int level, EnchantedItemInUse context, Entity target, Vec3 pos) {
         if (target instanceof LivingEntity victim) {
             if (context.owner() != null && context.owner() instanceof Player player) {
-                int Duration = (int) (this.duration.calculate(level) * 50); // Convert to ticks
-                int slownessAmplifier = level - 1; // Level 1 = Slowness 0, Level 2 = Slowness I, Level 3 = Slowness II
-                int weaknessAmplifier = level - 1; // Level 1 = Weakness 0, Level 2 = Weakness I, Level 3 = Weakness II
+                int Duration = (int) (this.duration.calculate(level) * 40); // Convert to ticks
                 victim.addEffect(new MobEffectInstance(
                         MobEffects.SLOWNESS,
                         Duration,
-                        slownessAmplifier,
+                        level,
                         false,
                         true
                 ));
                 victim.addEffect(new MobEffectInstance(
                         MobEffects.WEAKNESS,
                         Duration,
-                        weaknessAmplifier,
+                        level,
                         false,
                         true
                 ));
