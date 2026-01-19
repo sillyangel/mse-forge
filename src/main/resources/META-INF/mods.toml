@@ -11,7 +11,7 @@ loaderVersion="${loader_version_range}" #mandatory This is typically bumped ever
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="${mod_license}"
 # A URL to refer people to when problems occur with this mod
-updateJSONURL="https://git.sillyangel.dev/angel/more-spear-enchants/raw/branch/master/update.json"
+updateJSONURL="https://api.modrinth.com/updates/more-spear-enchantments/forge_updates.json"
 issueTrackerURL="https://git.sillyangel.dev/angel/mse-forge/issues" #optional
 # If your mod is purely client-side and has no multiplayer functionality (be it dedicated servers or Open to LAN),
 # set this to true, and Forge will set the correct displayTest for you and skip loading your mod on dedicated servers.

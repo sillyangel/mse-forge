@@ -3,7 +3,7 @@ plugins {
     id 'idea'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0.46,6.2)'
-    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+//    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
 version = mod_version
@@ -27,8 +27,7 @@ minecraft {
     // Additional setup is needed to use their mappings: https://parchmentmc.org/docs/getting-started
     //
     // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: mapping_channel, version: mapping_version
-
+    mappings channel: 'official', version: '1.21.11'
     // Forge 1.20.6 and newer use official mappings at runtime, so we shouldn't reobf from official to SRG
     reobf = false
 

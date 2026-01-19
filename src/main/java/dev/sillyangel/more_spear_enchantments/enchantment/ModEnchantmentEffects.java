@@ -22,5 +22,9 @@ public class ModEnchantmentEffects {
             ENCHANTMENT_ENTITY_EFFECTS.register("withering", () -> WitheringEnchantmentEffect.CODEC);
     public static final RegistryObject<MapCodec<CripplingEnchantmentEffect>> CRIPPLING_EFFECT =
             ENCHANTMENT_ENTITY_EFFECTS.register("crippling", () -> CripplingEnchantmentEffect.CODEC);
+    public static final RegistryObject<MapCodec<VampiricEnchantmentEffect>> VAMPIRIC_EFFECT =
+            ENCHANTMENT_ENTITY_EFFECTS.register("vampiric", () -> VampiricEnchantmentEffect.CODEC);
+    public static final RegistryObject<MapCodec<ExplosiveEnchantmentEffect>> EXPLOSIVE =
+            ENCHANTMENT_ENTITY_EFFECTS.register("explosive", () -> ExplosiveEnchantmentEffect.CODEC);
 }
 

@@ -21,11 +21,5 @@ public final class MoreSpearEnchantments {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         LOGGER.info("Initializing More Spear Enchantments");
-        LOGGER.info("Enchantment effects registered:");
-        LOGGER.info("  - Lightning (Thundering enchantment)");
-        LOGGER.info("  - Poison (Poisoning enchantment)");
-        LOGGER.info("  - Withering (Withering enchantment)");
-        LOGGER.info("  - Crippling (Crippling enchantment)");
-        LOGGER.info("Check enchanting table or use '/enchant' command to apply them to tridents!");
     }
 }
